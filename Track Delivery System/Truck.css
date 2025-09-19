@@ -9,7 +9,7 @@
       height: 100vh;
     }
 
-    /* Sidebar */
+  
     .sidebar {
       width: 220px;
       background: #242424;
@@ -40,7 +40,7 @@
       color: #fff;
     }
 
-    /* Main content */
+
     .main {
       flex: 1;
       display: flex;
@@ -121,7 +121,7 @@
     }
     .muted { color: #bbb; }
 
-    /* Responsive layout */
+  
     @media (max-width: 768px) {
       body { flex-direction: column; }
 
@@ -139,4 +139,5 @@
 
       .main { flex: 1; }
       .input { min-width: 0; width: 100%; }
+
     }
